@@ -1,4 +1,4 @@
-package com.example.effectivejava.ch02;
+package com.example.effectivejava.ch02.item2;
 
 public class C3_NutritionFacts {
     private final int servingSize;   // (ml, 1회 제공량)         필수

@@ -1,4 +1,4 @@
-package com.example.effectivejava.ch02;
+package com.example.effectivejava.ch02.item2;
 
 public class C2_NutritionFacts {
     // 매개변수들은 (기본값이 있다면) 기본값으로 초기화된다

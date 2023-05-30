@@ -1,9 +1,9 @@
 package com.example.effectivejava;
 
-import com.example.effectivejava.ch02.*;
+import com.example.effectivejava.ch02.item2.*;
 
-import static com.example.effectivejava.ch02.NyPizza.Size.*;
-import static com.example.effectivejava.ch02.Pizza.Topping.*;
+import static com.example.effectivejava.ch02.item2.NyPizza.Size.*;
+import static com.example.effectivejava.ch02.item2.Pizza.Topping.*;
 
 public class Hello {
     public static void main(String[] args) {
