@@ -1,8 +1,9 @@
 package com.example.effectivejava;
 
-import com.example.effectivejava.ch02.C1_NutritionFacts;
-import com.example.effectivejava.ch02.C2_NutritionFacts;
-import com.example.effectivejava.ch02.C3_NutritionFacts;
+import com.example.effectivejava.ch02.*;
+
+import static com.example.effectivejava.ch02.NyPizza.Size.*;
+import static com.example.effectivejava.ch02.Pizza.Topping.*;
 
 public class Hello {
     public static void main(String[] args) {
@@ -19,5 +20,10 @@ public class Hello {
 
         C3_NutritionFacts cocaCola3 = new C3_NutritionFacts.Builder(240, 8)
                 .calories(100).sodium(35).carbohydrate(27).build();
+
+        NyPizza pizza = new NyPizza.Builder(SMALL)
+                .addTopping(SAUSAGE).addTopping(ONION).build();
+        Calzone calzone = new Calzone.Builder()
+                .addTopping(HAM).sauceInside().build();
     }
 }
